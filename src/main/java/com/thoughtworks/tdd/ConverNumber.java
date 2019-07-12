@@ -1,14 +1,13 @@
 package com.thoughtworks.tdd;
 
+
 public class ConverNumber {
 
     public String convert(int input) {
-        if (input == 2){
-            return "2";
-        }else if(input == 3){
+
+        if (input == 3 || input == 6) {
             return "Fizz";
         }
-
-        return "1";
+        return String.valueOf(input);
     }
 }
