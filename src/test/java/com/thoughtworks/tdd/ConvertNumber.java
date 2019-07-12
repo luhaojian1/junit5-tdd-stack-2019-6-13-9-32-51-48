@@ -45,4 +45,14 @@ public class ConvertNumber {
         //then
         assertEquals("Fizz",result);
     }
+
+    @Test
+    void should_return_Buzz_when_convent_given_5(){
+        //given
+        int input = 5;
+        //when
+        String result = new ConverNumber().convert(input);
+        //then
+        assertEquals("Buzz",result);
+    }
 }
