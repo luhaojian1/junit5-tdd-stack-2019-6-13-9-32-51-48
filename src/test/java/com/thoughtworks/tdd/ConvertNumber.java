@@ -25,4 +25,14 @@ public class ConvertNumber {
         //then
         assertEquals("2",result);
     }
+
+    @Test
+    void should_return_Fizz_when_convent_given_3(){
+        //given
+        int input = 3;
+        //when
+        String result = new ConverNumber().convert(input);
+        //then
+        assertEquals("Fizz",result);
+    }
 }
