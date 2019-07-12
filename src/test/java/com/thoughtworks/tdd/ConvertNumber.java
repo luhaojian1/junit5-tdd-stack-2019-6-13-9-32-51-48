@@ -16,4 +16,13 @@ public class ConvertNumber {
         assertEquals("1",result);
     }
 
+    @Test
+    void should_return_2_when_convent_given_2(){
+        //given
+        int input = 2;
+        //when
+        String result = new ConverNumber().convert(input);
+        //then
+        assertEquals("2",result);
+    }
 }
