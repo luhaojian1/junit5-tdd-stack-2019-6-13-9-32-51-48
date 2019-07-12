@@ -55,4 +55,14 @@ public class ConvertNumber {
         //then
         assertEquals("Buzz",result);
     }
+
+    @Test
+    void should_return_FizzBuzz_when_convent_given_15(){
+        //given
+        int input = 15;
+        //when
+        String result = new ConverNumber().convert(input);
+        //then
+        assertEquals("FizzBuzz",result);
+    }
 }
